@@ -17,14 +17,14 @@ brew "glances"
 brew "htop"
 brew "mas"
 brew "mtr"
-brew "nmap", link: false
-brew "php@7.4", restart_service: true
+brew "nmap"
 brew "python@3.10"
 brew "watch"
 brew "watchman"
 brew "wget"
 brew "yt-dlp"
 brew "node"
+cask "iterm2"
 cask "dbeaver-community"
 cask "raycast"
 cask "mysqlworkbench"
@@ -34,6 +34,7 @@ cask "appcleaner"
 cask "logi-options-plus"
 cask "visual-studio-code"
 cask "handbrake"
+cask "docker"
 mas "1Focus", id: 969210610
 mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
