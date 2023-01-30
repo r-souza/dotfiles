@@ -10,21 +10,31 @@ If you want to understand more about how to use Homebrew Bundle, I recommend you
 
 In addition to the packages and applications, this repository also applies some macOS defaults [settings](scripts/set-defaults.sh). Some of these settings are based on this [repository](https://github.com/holman/dotfiles/blob/master/macos/set-defaults.sh). More useful settings can be found on [macosdefaults.com](https://macosdefaults.com/).
 
-## Installation
+## Usage
 
-To install packages and apply the settings, just run the following command:
+Clone this repository to a directory called `.dotfiles` in your home directory:
 
 ```shell
+git clone https://github.com/r-souza/dotfiles.git ~/.dotfiles
+```
+
+Open the `.dotfiles` directory and run the `install.sh` script.
+
+```shell
+cd ~/.dotfiles
 ./install.sh
 ```
+
+That's it! 🎉
 
 Basically, this script will:
 
 1. Install Oh My Zsh;
 2. Symlink/Copy the dotfiles to the home directory;
 3. Apply macOS defaults settings;
-4. Install Homebrew 
-5. Apply Homebrew Bundle;
+4. Apply iTerm2 settings;
+5. Install Homebrew 
+6. Apply Homebrew Bundle;
 
 I recommend you to inspect the [install.sh](install.sh) script before running it.
 
