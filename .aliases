@@ -1,5 +1,10 @@
 alias myip="curl https://ipinfo.io/json" # or /ip for plain-text ip
 alias speedtest="curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -"
-alias serve='php -S localhost:8999 .' # serve current directory on port 8999
+alias serve='php -S 0.0.0.0:8999'  # serve current directory on port 8999
 
-alias copath="pwd | pbcopy" 
+alias copath="pwd | pbcopy"
+alias cdp='f(){ cd  $(dirname $1); }; f'
+
+function kill_docker() {
+    ps ax|grep -i docker|egrep -iv 'grep|com.docker.vmnetd'|awk '{print $1}'|xargs kill
+}
