@@ -25,6 +25,7 @@ brew "wget"
 brew "yt-dlp"
 brew "node"
 cask "iterm2"
+cask "1password-cli"
 cask "dbeaver-community"
 cask "raycast"
 cask "mysqlworkbench"
@@ -36,7 +37,6 @@ cask "visual-studio-code"
 cask "handbrake"
 cask "docker"
 mas "1Focus", id: 969210610
-mas "LastPass", id: 926036361
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Rocket.Chat", id: 1086818840
