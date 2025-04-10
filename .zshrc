@@ -78,6 +78,7 @@ plugins=(
 	kubectl
 	npm
 	web-search
+	virtualenvwrapper
 )
 
 # for docker completion
@@ -114,15 +115,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Load aliases
-if [[ -a ~/.aliases ]]
-then
-  source ~/.aliases
+if [[ -e ~/.aliases ]]; then
+	source ~/.aliases
 fi
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
 # you'll have access to them in your scripts.
-if [[ -a ~/.localrc ]]
-then
-  source ~/.localrc
+if [[ -e ~/.localrc ]]; then
+	source ~/.localrc
 fi
