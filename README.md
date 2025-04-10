@@ -18,7 +18,13 @@ Clone this repository to a directory called `.dotfiles` in your home directory:
 git clone https://github.com/r-souza/dotfiles.git ~/.dotfiles
 ```
 
-Open the `.dotfiles` directory and run the `install.sh` script.
+Then, copy the `.env.example` file to `.env` and edit it with your own values:
+
+```shell
+cp ~/.dotfiles/.env.example ~/.dotfiles/.env
+```
+
+After that, you can run the `install.sh` script by executing the following commands:
 
 ```shell
 cd ~/.dotfiles
