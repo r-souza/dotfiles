@@ -83,9 +83,9 @@ main () {
 
   apply_macos_settings
 
-  # install_homebrew
+  install_homebrew
 
-  # install_brew_bundle
+  install_brew_bundle
 
   echo "That's all folks!"
 }

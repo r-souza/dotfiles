@@ -28,9 +28,12 @@ brew "pipx"
 brew "pngpaste"
 brew "python@3.12"
 brew "trash", link: true
+brew "nmap"
 brew "watch"
 brew "yt-dlp"
 brew "shivammathur/php/php@7.4"
+brew "node"
+cask "iterm2"
 cask "dbeaver-community"
 cask "handbrake"
 cask "icanhazshortcut"
@@ -42,6 +45,8 @@ cask "raycast"
 cask "spotify"
 mas "1Focus", id: 969210610
 mas "AnkiApp", id: 689185915
+cask "docker"
+mas "1Focus", id: 969210610
 mas "Magnet", id: 441258766
 mas "Rocket.Chat", id: 1086818840
 mas "The Unarchiver", id: 425424353
