@@ -81,11 +81,11 @@ main () {
 
   git_setup
 
-  apply_macos_settings
-
   install_homebrew
 
   install_brew_bundle
+  
+  apply_macos_settings
 
   echo "That's all folks!"
 }

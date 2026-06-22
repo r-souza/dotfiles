@@ -37,10 +37,10 @@ Basically, this script will:
 
 1. Install Oh My Zsh;
 2. Symlink/Copy the dotfiles to the home directory;
-3. Apply macOS defaults settings;
-4. Apply iTerm2 settings;
-5. Install Homebrew 
-6. Apply Homebrew Bundle;
+3. Apply iTerm2 settings;
+4. Install Homebrew 
+5. Apply Homebrew Bundle;
+6. Apply macOS defaults settings;
 
 I recommend you to inspect the [install.sh](install.sh) script before running it.
 
