@@ -80,6 +80,7 @@ cask "ngrok"
 cask "powershell"
 cask "raycast"
 cask "spotify"
+cask "supacode"
 # Remote access and connectivity software focused on security
 cask "teamviewer"
 mas "1Focus", id: 969210610
