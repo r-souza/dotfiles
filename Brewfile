@@ -1,7 +1,5 @@
-tap "buo/cask-upgrade"
-tap "homebrew/bundle"
-tap "homebrew/services"
-tap "shivammathur/php"
+tap "buo/cask-upgrade", trusted: true
+#tap "shivammathur/php"
 # Utility to check whether MAC addresses are already taken on a LAN
 brew "arping"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -66,12 +64,12 @@ brew "virtualenvwrapper"
 brew "watch"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
-brew "shivammathur/php/php@7.4"
+# brew "shivammathur/php/php@7.4"
 # Application uninstaller
 cask "appcleaner"
 cask "iterm2"
 cask "dbeaver-community"
-cask "handbrake"
+cask "handbrake-app"
 cask "libreoffice"
 cask "logi-options+"
 cask "monitorcontrol"
